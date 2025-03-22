@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>nav2config</name>
+  <version>0.0.1</version>
+  <description>Configuration files for Navigation 2</description>
+
+  <maintainer email="lingfengwu2203@gmail.com">Lingfeng</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>rclcpp</depend>
+  <depend>launch</depend>
+  <depend>nav2_map_server</depend>
+  <depend>nav2_lifecycle_manager</depend>
+  <exec_depend>rclpy</exec_depend>  
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+
+</package>
